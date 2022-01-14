@@ -1,7 +1,12 @@
+body {
+  background-color: #282c34;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .App {
   text-align: center;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +40,42 @@
   to {
     transform: rotate(360deg);
   }
+}
+.todoHeader {
+  color: #7ec8e3;
+  font-size: 2rem;
+}
+.task {
+  background-color: #7ec8e3;
+  text-align: start;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  width: 19rem;
+}
+.submitButton {
+  height: 2.3rem;
+  background-color: #7ec8e3;
+  border: none;
+  cursor: pointer;
+}
+.inputField {
+  height: 2rem;
+}
+.deleteButton {
+  background-color: white;
+  color: red;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  width: 2rem;
+  height: 2rem;
+}
+.noTask {
+  color: white;
+}
+.todoInput {
+  color: #7ec8e3;
+  margin: 1rem 0;
 }
